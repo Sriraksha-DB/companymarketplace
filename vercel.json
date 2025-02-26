@@ -1,12 +1,12 @@
 {
-    "routes": [
-        {
-            "src ": "/",
-            "dest": "/"
-        },
-        {
-            "src ":"/test",
-            "dest":"/"
-        }
-    ]
+  "version": 2,
+  "builds": [
+    {
+      "src": "/",
+      "use": "/test"
+    }
+  ],
+  "routes": [
+    { "src": "/", "dest": "/" }
+  ]
 }
