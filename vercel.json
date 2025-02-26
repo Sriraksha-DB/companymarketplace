@@ -1,5 +1,5 @@
 {
-    "routers": [
+    "routes": [
         {
             "src ": "/",
             "dest": "/"
